@@ -97,7 +97,7 @@ export default function App() {
               type="text"
               value={formName}
               onChange={e => setFormName(e.target.value)}
-              placeholder="e.g. John"
+              placeholder="e.g. Billy"
               style={{
                 width: "100%", padding: "11px 14px", fontSize: 16, borderRadius: 8,
                 border: "1.5px solid #CCD", outline: "none", marginBottom: 16, boxSizing: "border-box"
@@ -113,7 +113,7 @@ export default function App() {
               pattern="[0-9]*"
               value={formLasid}
               onChange={e => setFormLasid(e.target.value.replace(/\D/g, "").slice(0, 6))}
-              placeholder="e.g. 34195"
+              placeholder="e.g. 12345"
               style={{
                 width: "100%", padding: "11px 14px", fontSize: 22, letterSpacing: 8,
                 borderRadius: 8, border: "1.5px solid #CCD", outline: "none",
