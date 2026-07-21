@@ -70,7 +70,7 @@ export default function App() {
       {/* Header */}
       <div style={{ background: "#1A3A6B", color: "#fff", textAlign: "center", padding: "18px 20px 14px" }}>
         <div style={{ fontSize: 12, letterSpacing: 3, textTransform: "uppercase", opacity: 0.8, marginBottom: 4 }}>
-          Medford Public Schools
+          MPS Parents
         </div>
         <div style={{ fontSize: 22, fontWeight: 700 }}>Cafeteria Keypad Practice</div>
       </div>
